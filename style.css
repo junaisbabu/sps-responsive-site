@@ -1,0 +1,412 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.7;
+    color: gray;
+    font-weight: 300;
+    font-size: 1rem;
+    width: 100%;
+}
+
+h2 {
+    color: #000;
+}
+h3 {
+    color: #000;
+}
+.portion-1 p {
+    color: #000;
+}
+.home-sec {
+    width: 100%;
+   
+}
+
+.text-center h1{
+    font-size: 2rem;
+}
+.dot {
+    color: #00d2b5;
+}
+.site-logo {
+    text-decoration: none;
+}
+.site-logo a{
+    text-decoration: none;
+    color: black;
+}
+.img{
+  width: 100%;
+  height: auto;
+}
+.img img{
+  width: 100%;
+  height: auto;
+}
+.site-sec {
+    color: black;
+}
+.mb-5 {
+    margin-top: 1rem;
+}
+.feature-big h2 {
+        font-size: 3rem;
+        font-weight: 900;
+        margin-bottom: 30px;
+}
+.btn.btn-primary:hover {
+    background: transparent;
+    border-color: #00d2b5;
+    color: black;
+}
+.btn.btn-primary {
+    background-color: #00d2b5;
+    border: solid 2px #00d2b5;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.section-title {
+    margin-top: 2rem;
+    color: #000;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card {
+  transition:all 300ms ease-in;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    top: 0;
+   
+    height: 17rem;
+    
+}
+.card h3 {
+  font-size: 1.2rem;
+}
+
+
+/* .card-hov {
+    margin-top: 0px;
+} */
+.card-hov :hover  {
+    background: #00d2b5;
+    top: -15px;
+    color: lightcyan;
+}
+.card-hov:hover h3 {
+  color: #fff;
+}
+.card-hov h3 {
+  margin-top: 15px;
+}
+
+
+
+.circle1 {
+    background: #00d2b5;
+    color: #fff;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.card-hov :hover .circle1 {
+    background: #fff;
+    color: #00d2b5;
+}
+
+html,
+body {
+  font: 100% "Lato", sans-serif;
+  font-weight: 300;
+  height: 100%;
+}
+
+.blue-bg {
+  color: lightgray;
+  height: 100%;
+}
+.blue-bg h5 {
+    color: #000;
+}
+
+.circle {
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 50%;
+  background-color: #00d2b5;
+  color: #fff;
+  max-height: 50px;
+  z-index: 2;
+}
+
+.how-it-works.row {
+  display: flex;
+}
+.how-it-works.row .col-2 {
+  display: inline-flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #00d2b5;
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #00d2b5;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #00d2b5;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+.animat .card{
+
+    height: 6rem;
+}
+.animat .align {
+   margin-top: -20px;
+}
+.animat .align1 {
+    margin-top: -8px;
+ }
+ .animat h3 {
+     font-size: 1rem;
+     font-weight: normal;
+ }
+ .vertical-line-2 h5 {
+     color: #000;
+ }
+ 
+ body {
+  font-family: helvetica;
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chat {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.messages {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.yours {
+  align-items: flex-start;
+}
+
+.yours .message {
+  margin-right: 25%;
+  background-color: #eee;
+  position: relative;
+}
+
+.yours .message.last:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: -7px;
+  background: #eee;
+  border-bottom-right-radius: 15px;
+}
+.yours .message.last:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: -10px;
+  width: 10px;
+  height: 20px;
+  background: white;
+  border-bottom-right-radius: 10px;
+}
+
+.mine {
+  align-items: flex-end;
+}
+
+.mine .message {
+  color: white;
+  margin-left: 25%;
+  background-color: #00d2b5;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.mine .message.last:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  right: -8px;
+  height: 20px;
+  width: 20px;
+  background-color: #00d2b5;
+  background-attachment: fixed;
+  border-bottom-left-radius: 15px;
+}
+
+.mine .message.last:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: -10px;
+  width: 10px;
+  height: 20px;
+  background: white;
+  border-bottom-left-radius: 10px;
+}
+
+.chat :hover .last{
+top: 1.5rem;
+}
+
+.contact-details {
+  width: 100%;
+  margin-top: 3rem;
+
+}
+.contact-form {
+  display: flex;
+}
+.contact-icons {
+  margin: 20px;
+  margin-top: 3px;
+  
+}
+.contact-icons img{
+  width: 20px;
+  height: 20px;
+}
+.contact-form {
+
+  margin-top: 30px;
+}
+.contact-details a {
+  text-decoration: none;
+}
+.address-box a {
+  color: #00d2b5;
+}
+.contact-title {
+  color: #000;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: center;
+}
+.social-media-icon {
+  margin: 20px;
+}
+.copyright-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.copyright-sec p {
+font-size: 0.8rem;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #00d2b5; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 17px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 30px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+

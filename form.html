@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   
+        <div class="container-fluid logo d-flex justify-content-center p-4"">
+            
+                    
+                    <h2 class="mt-5 logo-text">SPS</h2>
+                    <span class="mt-5 dot-icon" style="font-size: 30px; color: #00d2b5;">.</span>
+            
+                   
+                
+    
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>REGISTRATION</h2>
+                </div>
+            </div>
+
+            <form action="" id="form">
+            <div class="row">
+                <div class="col-12 ">
+                    <input type="text" id="full-name" placeholder="Full Name" name="applicantName" class="form-style">
+                    <hr>
+                </div>
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <input type="text" id="place-name" placeholder="Place" name="applicantPlace" class="form-style">
+                    <hr>
+                </div>
+                
+
+                <div class="col-md-6 col-12">
+                    <select name="gender" id="gender" name="gender" class="form-style"> 
+                        <option disabled selected value=""> Gender </option> 
+                        <option value="Male">Male</option> 
+                        <option value="Female">Female</option> 
+                    </select>
+                
+                    <hr>
+                </div> 
+                
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <input type="email" placeholder="Email" name="email" id="email-box" class="form-style" >
+                    <hr>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <input type="tel" placeholder="Contact No" name="contactNo" id="contact" class="form-style">
+                    <hr>
+                </div>
+                <div class="col-md-6 col-12">
+                    <select name="status" id="employment" class="form-style"> 
+                        <option disabled selected value="">Employment Status</option> 
+                        <option value="">Employed</option> 
+                        <option value="">Fresher</option>
+                        <option value="">Student</option> 
+                    </select>
+                    <hr>
+                    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <select name="qualification" id="qualification" class="form-style"> 
+                    <option disabled selected value="">Educational qualification</option> 
+                    <option value="">B.Tech</option> 
+                    <option value="">M.Tech</option>
+                    <option value="">BCA/MCA</option>
+                    <option value="">Bsc/Msc</option>
+                    <option value="">Diploma</option>
+                    <option value="">Other</option> 
+                </select>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <input type="text" placeholder="Name of College / Organisation" name="institution" id="college" class="form-style">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <input type="number" placeholder="Year of Graduation" name="graduation" id="year" class="form-style">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <textarea id="about-you" name="aboutApplicant" cols="1" rows="2" style="width: 100%;" placeholder="Tell us more about you" class="form-style"></textarea>
+                <hr>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <textarea id="join" name="joiningReason" cols="1" rows="2" style="width: 100%;" placeholder="Why do you want to join SPS?" class="form-style"></textarea>
+                <hr>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <textarea id="motivate" name="motivation" cols="1" rows="2" style="width: 100%;" placeholder="Tell us more about you" class="form-style"></textarea>
+                <hr>
+            </div> 
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <select name="SPS" id="from-where" class="form-style"> 
+                    <option disabled selected value=" ">From where did you learn about SPS?</option> 
+                    <option value="">CrossRoads YouTube Channel</option> 
+                    <option value="">YouTube</option>
+                    <option value="">Friends</option>
+                    <option value="">Facebook</option>
+                    <option value="">Whatsapp Group</option>
+                     
+                </select>
+                <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input type="checkbox" name="agreement" id="check-box">
+                <span class="bla">I agree that I have read and understood all the</span>
+                <span>FAQS</span>
+                <hr>
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-12 reg-btn">
+                    <button style="width: 100%; height: 3.5rem;">REGISTER</button>
+                </div>
+            </div>
+        </form>
+        </div>
+
+        <div class="footer-div">
+            <div class="copy-right">
+                <p>Copyright ©Packapeer Academy Pvt Ltd 2021</p>
+            </div>
+        </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+
+    <script>
+    $.validator.addMethod("customName", function(value, element) { 
+        return this.optional( element ) || /^([a-zA-Z])+([a-zA-Z])+$/.test( value ); 
+      },'Enter a valid input');
+    $("#form").validate({
+                rules:{
+                    applicantName:{
+                        required: true,
+                        customName:true
+                    },
+                    applicantPlace: {
+                        required: true,
+                        customName:true
+                    },
+                    gender: {
+                        required: true
+                    },
+                    contactNo : {
+                        required: true,
+                        digits: true,
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    status:{
+                        
+                    },
+                    qualification: {
+                        
+                    },
+                    institution: {
+                        required: true
+                    },
+                    graduation:  {
+                        required: true,
+                        digits: true
+                    },
+                    aboutApplicant:{
+                        required: true
+                    },
+                    joiningReason: {
+                        required: true
+                    },
+                    motivation:  {
+                        required: true
+                    },
+                    SPS: {
+                        
+                    },
+                    agreement: {
+                        required: true
+                    }
+                },
+                messages:{
+                    // applicantName:{
+                    //     customName:'Enter a valid input'
+                    // },
+                    // applicantPlace: {
+                    //     customName:'Enter a valid input'
+                    // },
+                    contactNo : {
+                        digits: 'enter a valid contact number',
+                    },
+               },
+                errorPlacement: function(error,element){
+                    if(element.is(":checkbox")){
+                        error.appendTo(element.parents(".agree"));
+                    }else{
+                         error.insertAfter( element );
+                    }
+                },
+                submitHandler:function(form){
+                    $.ajax({
+                        url:"https://script.google.com/macros/s/AKfycbyzi5Re5wr0PekypWLN61L3DFG8BimxvI-1RY1lqcskez4csnIyrnGBZZuDEXeKrcQ/exec",
+                        data:$("#form").serialize(),
+                        method:"post",
+                        success:function (response){
+                            alert("Form submitted successfully")
+                            window.location.reload()
+                        },
+                        error:function (err){
+                            alert("Something Error")
+                
+                        }
+                    })
+                }
+    
+    })
+
+</script>
+
+</body>
+</html>

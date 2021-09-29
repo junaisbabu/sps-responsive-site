@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SPS Clone</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="home-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 mt-4 text-center">
+          <h1 class="site-logo">
+            <a href="index.html">SPS
+              <span class="dot">.</span>
+            </a>
+          </h1>
+        </div>
+      </div>
+      <div class="site-section ">
+
+
+
+        <div class="row mb-5 site-section feature-big">
+
+          <div class="col-lg-7">
+
+            <div id="video-btn1" class="img"
+              onclick="this.nextElementSibling.style.display='block';this.style.display='none';onPlayer1click()">
+              <img src="https://spsonline.in/images/whats_sps.png" class="img-fluid" style="cursor:pointer">
+            </div>
+            <div style="display:none">
+              <div class="embed-responsive embed-responsive-16by9 mb-5">
+                <iframe id="video1" class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/I9QGnNvrmoY?enablejsapi=1"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen=""></iframe>
+              </div>
+            </div>
+
+          </div>
+          <div class="portion-1 col-lg-5  ">
+            <h2>No Tuition Fee Upfront,<br>
+              Pay Only When You Earn.</h2>
+            <p class="mb-3">From Zero to a high paid Software Engineer in 180 days.</p>
+            <div>
+              <a id="apply-now" href="form.html" class="btn btn-primary mb-2">Apply Now</a>
+              <p class="mb-2">(NB: Read all the FAQs carefully before
+                you<br> submit the application)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="site-section bg-light">
+      <div class="container">
+
+        <h2 class="section-title mb-3">Features</h2>
+        <div class="row">
+
+
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 card-hov">
+
+            <div class="card">
+              <div class="card-icon mb-3">
+
+              </div>
+
+              <div class="circle1">
+                <i class="material-icons">
+                  groups
+                </i>
+              </div>
+
+              <h3>Win like an army</h3>
+              <p>We work as a team because we get paid only when you get paid.</p>
+
+
+
+            </div>
+
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 card-hov">
+
+            <div class="card">
+              <div class="card-icon mb-3">
+
+              </div>
+
+              <div class="circle1">
+                <i class="material-icons">
+                  school
+                </i>
+              </div>
+
+              <h3>You are the Student and the Teacher</h3>
+              <p>“We have learnt from others. You will learn from us. And someone else will learn from you”</p>
+
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4 card-hov">
+            <div class="card">
+              <div class="card-icon mb-3">
+
+              </div>
+
+              <div class="circle1">
+                <i class="material-icons">
+                  library_books
+                </i>
+              </div>
+
+              <h3>No one size fit all classes</h3>
+              <p>Freely explore the different areas of programming. Find what you’re passionate about. And get after
+                it.<br>&nbsp;</p>
+
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-big">
+      <div class="container">
+        <div class="row mb-5 site-section border-bottom">
+          <div class="col-lg-7">
+
+
+            <div id="video-btn2"
+              onclick="this.nextElementSibling.style.display='block'; this.style.display='none';onPlayer2click()">
+              <img src="https://spsonline.in/images/Howspsworks.png" class="img-fluid"
+                style="cursor:pointer;">
+            </div>
+            <div style="display:none">
+              <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5">
+                <iframe id="video2" class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/ckub1RSlhic?enablejsapi=1"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen=""></iframe>
+              </div>
+            </div>
+
+
+
+          </div>
+          <div class="col-lg-5 pl-lg-5 ml-auto mt-md-5">
+            <h2>SPS in Brief?</h2>
+            <p class="mb-4">School of Practical Studies (SPS) helps the young Indian generation who had benefited
+              nothing from our country’s poor education system by providing an intensive industry relevant training on
+              the leading software technologies. <br>
+              <br>The SPS program is completely FREE upfront and our students pay zero tuition fee until they land a
+              job. We believe everyone should get the right opportunities to learn, hence we do not charge any fees
+              upfront. <br>
+              <br>SPS is not just another training institute where you go learn something and leave forever. SPS is a
+              community of high performance people who support each other and to win together. Each SPS grad will always
+              be in touch with our community and help the new buddies as a way of giving back.
+            </p>
+          </div>
+        </div>
+
+        <div class="mt-3 row mb-3 site-section ">
+
+
+          <div class="col-lg-12 pr-lg-12 mr-auto order-2 order-lg-1">
+
+            <div class="container-fluid blue-bg">
+              <div class="container">
+                <h2 class="pb-3 pt-2">Life at SPS
+                  <hr>
+                </h2>
+                <p>SPS is built on 3 principles i.e Open Material Education, Self Learning and Peer to peer Learning</p>
+                <!--first section-->
+                <div class="row align-items-center how-it-works">
+                  <div class="col-2 text-center bottom">
+                    <div class="circle">1</div>
+                  </div>
+
+                  <div class="col-6">
+
+                    <h5>The Ignition</h5>
+                    <p>Learn all the fundamentals of programming(0-30 days).</p>
+                  </div>
+                </div>
+                <!--path between 1-2-->
+                <div class="row timeline">
+                  <div class="col-2">
+                    <div class="corner top-right"></div>
+                  </div>
+                  <div class="col-8">
+                    <hr />
+                  </div>
+                  <div class="col-2">
+                    <div class="corner left-bottom"></div>
+                  </div>
+                </div>
+                <!--second section-->
+                <div class="row align-items-center justify-content-end how-it-works">
+                  <div class="col-6 text-right">
+                    <h5>The Acceleration</h5>
+                    <p>During this period you will dive deep into various aspects of your domain (31-90 days).</p>
+                  </div>
+                  <div class="col-2 text-center full">
+                    <div class="circle">2</div>
+                  </div>
+                </div>
+                <!--path between 2-3-->
+                <div class="row timeline">
+                  <div class="col-2">
+                    <div class="corner right-bottom"></div>
+                  </div>
+                  <div class="col-8">
+                    <hr />
+                  </div>
+                  <div class="col-2">
+                    <div class="corner top-left"></div>
+                  </div>
+                </div>
+                <!--third section-->
+                <div class="row align-items-center how-it-works">
+                  <div class="col-2 text-center top">
+                    <div class="circle">3</div>
+                  </div>
+                  <div class="col-6">
+                    <h5>And the Race</h5>
+                    <p>You will launch as many live projects as possible(91-180 days).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="site-section bg-light">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-12 text-center">
+                <h2 class="section-title mb-3 text-left">What Domains You Can Choose</h2>
+              </div>
+            </div>
+            <div class="row align-items-stretch">
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-group"></span></span-->
+                  </div>
+                  <div class="align">
+                    <h3>Web Development</h3>
+                    <p>in Python / Node.js / PHP / .Net / Java / Go / Ruby</p>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-school"></span></span-->
+                  </div>
+                  <div class="align">
+                    <h3>Mobile App Development</h3>
+                    <p>In Kotlin Android / iOS / Flutter / React - Native</p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-book"></span></span-->
+                  </div>
+                  <div class="align1">
+                    <h3>Cyber Security</h3>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-group"></span></span-->
+                  </div>
+                  <div class="align1">
+                    <h3>Artificial Intelligence</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-group"></span></span-->
+                  </div>
+                  <div class="align1">
+                    <h3>Machine Learning</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-group"></span></span-->
+                  </div>
+                  <div class="align1">
+                    <h3>Data Science</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-group"></span></span-->
+                  </div>
+                  <div class="align1">
+                    <h3>BlockChain</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat">
+                <div class="card d-block">
+                  <div clcard-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-group"></span></span-->
+                  </div>
+                  <div class="align1">
+                    <h3>Augmented Reality / Virtual Reality</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-group"></span></span-->
+                  </div>
+                  <div class="align1">
+                    <h3>Software Testing</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="col-md-6 col-lg-6 mb-4 mb-lg-4 card-hov animat" data-aos="fade-up">
+
+                <div class="card d-block">
+                  <div class="card-icon mb-3">
+                    <!--span class="icon-wrap"><span class="text-primary icon-group"></span></span-->
+                  </div>
+                  <div class="align1">
+                    <h3>DevOps</h3>
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="vertical-line-2 mt-3 row mb-3 site-section feature-big" style="margin-left:0px; margin-right:0px;">
+
+
+          <div class="col-lg-12 pr-lg-12 mr-auto mt-5 order-2 order-lg-1">
+            <div class="container">
+              <h2 class="pb-1  border-bottom text-black ">Want to join SPS? </h2>
+
+              <div class="col-12">
+
+
+                <div id="video-btn3"
+                  onclick="this.nextElementSibling.style.display='block'; this.style.display='none';onPlayer3click()">
+                  <img src="https://spsonline.in/images/whocanjoinsps.png" class="img-fluid mb-1"
+                    style="cursor:pointer;">
+                </div>
+                <div style="display:none">
+                  <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5">
+                    <iframe id="video3" class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/xkmM6h32lnM?enablejsapi=1"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen=""></iframe>
+                  </div>
+                </div>
+              </div>
+
+              <p>3 step process to join the SPS</p>
+
+              <!---------first section----->
+              <div class="row align-items-center justify-content-end how-it-works d-flex">
+                <div class="col-6 text-right">
+                  <h5 class="text-black">Apply Online</h5>
+                  <p>Submit your application online and pick an interview date which is convenient for you.</p>
+                </div>
+                <div class="col-2 text-center bottom d-inline-flex justify-content-center align-items-center"
+                  style="margin-right: 3px;">
+                  <div class="circle font-weight-bold">1</div>
+                </div>
+              </div>
+              <!---------first section  End----->
+              <!----path between 1-2-->
+              <div class="row timeline">
+                <div class="col-2">
+                  <div class="corner right-bottom"></div>
+                </div>
+                <div class="col-8">
+                  <hr>
+                </div>
+                <div class="col-2">
+                  <div class="corner top-left"></div>
+                </div>
+              </div>
+              <!----path between 1-2 End-->
+
+              <!---------second section  ----->
+              <div class="row align-items-center how-it-works d-flex">
+                <div class="col-2 text-center full d-inline-flex justify-content-center align-items-center"
+                  style="margin-left: 3px;">
+                  <div class="circle font-weight-bold">2</div>
+                </div>
+                <div class="col-6">
+                  <h5 class="text-black">The Interview</h5>
+                  <p>Appear for the telephone interview. Give the best and honest answers you can.
+                  </p>
+                </div>
+              </div>
+
+              <!---------second section   End----->
+
+              <!--path between 2-3-->
+              <div class="row timeline">
+                <div class="col-2">
+                  <div class="corner top-right"></div>
+                </div>
+                <div class="col-8">
+                  <hr>
+                </div>
+                <div class="col-2">
+                  <div class="corner left-bottom"></div>
+                </div>
+              </div>
+              <!--path between 2-3 end-->
+              <!---------third section----->
+              <div class="row align-items-center justify-content-end how-it-works d-flex">
+                <div class="col-6 text-right">
+                  <h5 class="text-black">Joining Mail</h5>
+                  <p>Get the joining mail if you have qualified. </p>
+                </div>
+                <div class="col-2 text-center top d-inline-flex justify-content-center align-items-center"
+                  style="margin-right: 3px;">
+                  <div class="circle font-weight-bold">3</div>
+                </div>
+              </div>
+              <!---------third section  End----->
+              <p>If you failed to qualify the interview, then prepare well, schedule it again and repeat the process
+                until you
+                win.</p>
+
+
+              <div class="col-12">
+
+
+                <div id="video-btn4"
+                  onclick="this.nextElementSibling.style.display='block'; this.style.display='none';onPlayer4click()">
+                  <img src="https://spsonline.in/images/howmuchdoesitcost.png" class="img-fluid mt-2 mb-2 "
+                    style="cursor:pointer;">
+                </div>
+                <div style="display:none">
+                  <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5">
+                    <iframe id="video4" class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/vhG3wKGp2mc?enablejsapi=1"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen=""></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="feature-big">
+              <h2 class="pt-2 border-bottom mb-5 text-black ">Convocation</h2>
+            </div>
+          </div>
+
+          <div class="col-12">
+
+            <div id="video-btn5"
+              onclick="this.nextElementSibling.style.display='block'; this.style.display='none';onPlayer5click()">
+              <img src="https://spsonline.in/images/ConvocationCeremony.png" class="img-fluid mt-2 mb-2"
+                style="cursor:pointer;">
+            </div>
+            <div style="display:none">
+              <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5">
+                <iframe id="video5" class="embed-responsive-item"
+                  src="https://www.youtube.com/embed/m_hx0Ebg5Yo?enablejsapi=1"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="container">
+          
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+              <h2>FAQs
+                <hr>
+              </h2>
+
+              <div class="chat" style="height: 36rem; overflow: scroll; overflow-x: hidden;">
+                <div class="mine messages">
+                  <div class="message last">
+                    Who is SPS for?
+                  </div>
+                </div>
+                <div class="yours messages">
+
+                  <div class="message last">
+                    Anyone who wants to learn Computer programming and build a good career as a Software Engineer😀.
+                  </div>
+                </div>
+                <div class="mine messages">
+
+                  <div class="message last">
+                    Do I need any prior knowledge / experience in computer programming to join SPS?
+                  </div>
+                </div>
+                <div class="yours messages">
+
+                  <div class="message last">
+                    No, you don't require any prior knowledge / experience in computer programming.😀
+                  </div>
+                  <div class="message last">
+                    But you must be ready to learn it.😀
+                  </div>
+                </div>
+                <div class="mine messages">
+
+                  <div class="message last">
+                    Do I need a degree to join SPS?
+                  </div>
+                </div>
+                <div class="yours messages">
+
+                  <div class="message last">
+                    No, you don't need any degree or educational qualification.😀
+                  </div>
+                </div>
+                <div class="mine messages">
+
+                  <div class="message last">
+                    What are the eligibity criteria to join SPS?
+                  </div>
+                </div>
+                <div class="yours messages">
+
+                  <div class="message last">
+                    Applicants should have basic mathematical skills such as addition, subtraction, multiplication and
+                    division.➕➖➗✖
+                  </div>
+                  <div class="message last">
+                    Ability to read and write in English.📖📝
+
+                  </div>
+                </div>
+                <div class="mine messages">
+
+                  <div class="message last">
+                    Can I learn a specific domain like cybersecurity, data science, AI/ML etc.,at SPS?
+                  </div>
+                </div>
+                <div class="yours messages">
+
+                  <div class="message last">
+                    Yes, you can choose any domain as you wish🙂
+                  </div>
+                  <div class="message last">
+                    We don't control what you learn
+                  </div>
+                  <div class="message last">
+                    Everything is self learnt and learnt from peers
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  d-flex justify-content-center align-items-center">
+              <div class="contact-details">
+                <div class="contact-form">
+                  <div class="contact-icons">
+                    <img
+                      src="https://img.icons8.com/external-those-icons-lineal-those-icons/24/000000/external-location-maps-locations-those-icons-lineal-those-icons-6.png" />
+                  </div>
+                  <div class="address-box">
+                    <div class="contact-title">
+                      <h5>Address</h5>
+                    </div>
+                    <div class="contact-detail">
+                      <a href="#">InfoPark Kochi & CyberPark Calicut</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-form">
+                  <div class="contact-icons">
+                    <img
+                      src="https://img.icons8.com/external-those-icons-lineal-those-icons/24/000000/external-call-mobile-telephone-those-icons-lineal-those-icons.png" />
+                  </div>
+                  <div class="address-box">
+                    <div class="contact-title">
+                      <h5>Lets Talk</h5>
+                    </div>
+                    <div class="contact-detail">
+                      <a href="tel:+917902606117">+91 7902606117</a>
+                      <br>
+                      <a href="tel:+918086356702">+91 8086356702</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="contact-form">
+                  <div class="contact-icons">
+                    <img src="https://img.icons8.com/material-outlined/24/000000/mail.png" />
+                  </div>
+                  <div class="address-box">
+                    <div class="contact-title">
+                      <h5>General Support</h5>
+                    </div>
+                    <div class="contact-detail">
+                      <a href="@mailto:sps@packapeer.com">sps@packapeer.com</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        
+      </div>
+
+      </div>
+      <br>
+      <hr>
+
+
+      <div class="container">
+        <div class="footer">
+          <div class="footer-icon">
+            <div class="social-media-icon">
+              <a href="index.html">
+                <img src="images/icons8-facebook-f.svg" alt="">
+              </a>
+            </div>
+            <div class="social-media-icon">
+              <a href="index.html">
+                <img src="images/icons8-twitter.svg" alt="">
+              </a>
+            </div>
+            <div class="social-media-icon">
+              <a href="https://www.instagram.com/crossroads.official/">
+                <img src="images/icons8-instagram.svg" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-bar">
+          <div class="copyright-sec">
+            <p>Copyright ©Packapeer Academy Pvt Ltd 2021</p>
+          </div>
+        </div>
+        <br>
+
+      </div>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+  <script>
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
